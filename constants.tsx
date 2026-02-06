@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { MenuItem, Review, GalleryImage } from './types';
 
@@ -6,7 +5,7 @@ export const RESTAURANT_NAME = "Cantino";
 export const ADDRESS = "Shop 5, DDA Market Complex, Delhi University, Bylane, Hudson Lane, GTB Nagar, Delhi, 110033";
 export const PHONE = "011 4019 4479";
 export const PHONE_URL = "tel:+911140194479";
-export const GOOGLE_MAPS_LINK = "https://www.google.com/maps/dir/?api=1&destination=Cantino+GTB+Nagar+Delhi";
+export const GOOGLE_MAPS_LINK = "https://maps.app.goo.gl/jNrN5WRTvXE7L3i9A";
 export const ORDER_ONLINE_URL = "https://www.google.com/viewer/chooseprovider?mid=/g/11f3jybqdq&g2lbs=AIBNGdWcSns1Y-CVHFYPagRHwxFjP1k5cU_yAFFFkkRMTplQZjF_kTQIZ_yTXH0Z1MBZDFbNHAVTWndGkS29kGoSPzsF_kDEmTgDukaHuyOi-jAMhVrvJTE%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=57aFacHfKZeiseMPmaLAwQ4&ei=57aFacHfKZeiseMPmaLAwQ4&fo_s=OA&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp";
 
 export const MENU_ITEMS: MenuItem[] = [
@@ -18,7 +17,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'North Indian',
     isPopular: true,
     isChefSpecial: true,
-    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1626074353765-517a681e40be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: '2',
@@ -35,7 +34,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Fresh mint leaves, lime juice, sugar, and soda over crushed ice.',
     price: 195,
     category: 'Beverages',
-    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: '4',
@@ -61,7 +60,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 495,
     category: 'North Indian',
     isChefSpecial: true,
-    image: 'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: '7',
@@ -69,7 +68,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Pasta tossed in a spicy garlic tomato sauce with olives and herbs.',
     price: 375,
     category: 'Continental',
-    image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: '8',
@@ -106,10 +105,40 @@ export const REVIEWS: Review[] = [
 ];
 
 export const GALLERY: GalleryImage[] = [
-  { id: 'g1', url: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Cantino Ambience', category: 'Ambience' },
-  { id: 'g2', url: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Delicious Food', category: 'Food' },
-  { id: 'g3', url: 'https://images.unsplash.com/photo-1514525253361-bee8718a740b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Live Music Night', category: 'Music' },
-  { id: 'g4', url: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Cozy Seating', category: 'Ambience' },
-  { id: 'g5', url: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Chef Specials', category: 'Food' },
-  { id: 'g6', url: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Celebrations at Cantino', category: 'Events' }
+  { 
+    id: 'g1', 
+    url: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', 
+    alt: 'Cantino Ambience', 
+    category: 'Ambience' 
+  },
+  { 
+    id: 'g2', 
+    url: 'https://images.unsplash.com/photo-1606471191009-63994c53433b?auto=format&fit=crop&w=800&q=80', 
+    alt: 'Signature Indian Platter', 
+    category: 'Food' 
+  },
+  { 
+    id: 'g3', 
+    url: 'https://images.unsplash.com/photo-1459749411177-04218006d396?auto=format&fit=crop&w=800&q=80', 
+    alt: 'Live Performance Night', 
+    category: 'Music' 
+  },
+  { 
+    id: 'g4', 
+    url: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', 
+    alt: 'Cozy Seating Area', 
+    category: 'Ambience' 
+  },
+  { 
+    id: 'g5', 
+    url: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', 
+    alt: 'Artisan Pizzas', 
+    category: 'Food' 
+  },
+  { 
+    id: 'g6', 
+    url: 'https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', 
+    alt: 'Celebration at Cantino', 
+    category: 'Events' 
+  }
 ];

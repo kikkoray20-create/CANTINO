@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-amber-500 shrink-0" />
-                <a href="mailto:info@cantino.com" className="hover:text-amber-500 transition-colors">hello@cantino.in</a>
+                <a href="mailto:hello@cantino.in" className="hover:text-amber-500 transition-colors">hello@cantino.in</a>
               </li>
               <li className="flex items-center space-x-3">
                 <Clock size={18} className="text-amber-500 shrink-0" />
@@ -76,7 +76,7 @@ const Footer: React.FC = () => {
           {/* Map Snippet */}
           <div className="rounded-2xl overflow-hidden grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-500 shadow-2xl h-48 md:h-auto border border-white/10">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.6415053459814!2d77.2039233761725!3d28.69438078122393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd8042571253%3A0xc023537b01859942!2sCantino!5e0!3m2!1sen!2sin!4v1715423854124!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.641453163155!2d77.2026187755032!3d28.69376657563124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd8042571253%3A0xc023537b01859942!2sCantino!5e0!3m2!1sen!2sin!4v1715423854124!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

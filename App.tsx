@@ -76,8 +76,8 @@ function App() {
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 28.6943808,
-            "longitude": 77.2064983
+            "latitude": 28.6937666,
+            "longitude": 77.2048074
           },
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
