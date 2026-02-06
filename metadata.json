@@ -1,7 +1,5 @@
 {
   "name": "Cantino - North Indian & Multicuisine Café",
   "description": "A premium, modern web experience for Cantino restaurant in GTB Nagar, featuring live music vibes, a digital menu, and seamless online ordering.",
-  "requestFramePermissions": [
-    "geolocation"
-  ]
+  "requestFramePermissions": []
 }
