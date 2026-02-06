@@ -119,7 +119,7 @@ export const GALLERY: GalleryImage[] = [
   },
   { 
     id: 'g3', 
-    url: 'https://images.unsplash.com/photo-1459749411177-04218006d396?auto=format&fit=crop&w=800&q=80', 
+    url: 'https://images.stockcake.com/public/f/e/d/fedc86eb-83d9-41e5-985e-2de9e12bcfee_large/cafe-live-music-stockcake.jpg', 
     alt: 'Live Performance Night', 
     category: 'Music' 
   },
