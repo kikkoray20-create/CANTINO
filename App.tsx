@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Reviews from './components/Reviews';
 import Footer from './components/Footer';
 import { ShoppingBag, ArrowUp } from 'lucide-react';
+import { ORDER_ONLINE_URL } from './constants';
 
 function App() {
   const [showScrollTop, setShowScrollTop] = React.useState(false);
@@ -46,7 +47,9 @@ function App() {
           </button>
         )}
         <a 
-          href="#order"
+          href={ORDER_ONLINE_URL}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center space-x-3 bg-amber-600 text-white px-6 py-4 rounded-full shadow-2xl hover:bg-amber-700 transition-all transform hover:scale-105"
         >
           <ShoppingBag size={20} />

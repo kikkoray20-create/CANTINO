@@ -7,6 +7,7 @@ export const ADDRESS = "Shop 5, DDA Market Complex, Delhi University, Bylane, Hu
 export const PHONE = "011 4019 4479";
 export const PHONE_URL = "tel:+911140194479";
 export const GOOGLE_MAPS_LINK = "https://www.google.com/maps/dir/?api=1&destination=Cantino+GTB+Nagar+Delhi";
+export const ORDER_ONLINE_URL = "https://www.google.com/viewer/chooseprovider?mid=/g/11f3jybqdq&g2lbs=AIBNGdWcSns1Y-CVHFYPagRHwxFjP1k5cU_yAFFFkkRMTplQZjF_kTQIZ_yTXH0Z1MBZDFbNHAVTWndGkS29kGoSPzsF_kDEmTgDukaHuyOi-jAMhVrvJTE%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=57aFacHfKZeiseMPmaLAwQ4&ei=57aFacHfKZeiseMPmaLAwQ4&fo_s=OA&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp";
 
 export const MENU_ITEMS: MenuItem[] = [
   {

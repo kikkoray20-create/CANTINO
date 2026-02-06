@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, ShoppingCart } from 'lucide-react';
-import { RESTAURANT_NAME, PHONE_URL } from '../constants';
+import { RESTAURANT_NAME, PHONE_URL, ORDER_ONLINE_URL } from '../constants';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +16,8 @@ const Navbar: React.FC = () => {
   }, []);
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith('http')) return; // Allow external links to work normally
+    
     e.preventDefault();
     setIsOpen(false);
     
@@ -88,8 +90,9 @@ const Navbar: React.FC = () => {
             </div>
             
             <a
-              href="#menu"
-              onClick={(e) => handleNavClick(e, '#menu')}
+              href={ORDER_ONLINE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className={`flex items-center space-x-2 px-6 py-2.5 rounded-full text-xs font-black uppercase tracking-widest transition-all duration-300 ${
                 isScrolled 
                   ? 'bg-amber-600 text-white shadow-md hover:bg-amber-700' 
@@ -144,8 +147,9 @@ const Navbar: React.FC = () => {
           ))}
           <div className="pt-8">
             <a
-              href="#menu"
-              onClick={(e) => handleNavClick(e, '#menu')}
+              href={ORDER_ONLINE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-amber-600 text-white px-10 py-4 rounded-full text-lg font-bold shadow-2xl flex items-center space-x-3 active:scale-95 transition-transform"
             >
               <ShoppingCart size={22} />

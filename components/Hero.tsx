@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { ChevronRight, MapPin, PhoneCall } from 'lucide-react';
-import { PHONE_URL, GOOGLE_MAPS_LINK } from '../constants';
+import { PHONE_URL, GOOGLE_MAPS_LINK, ORDER_ONLINE_URL } from '../constants';
 
 const Hero: React.FC = () => {
   return (
@@ -34,7 +34,9 @@ const Hero: React.FC = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-3 sm:space-y-0 sm:space-x-4">
           <a 
-            href="#menu" 
+            href={ORDER_ONLINE_URL} 
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-4 bg-amber-600 text-white rounded-full font-bold hover:bg-amber-700 transition-all flex items-center justify-center space-x-2 shadow-2xl active:scale-95"
           >
             <span>Order Online</span>
