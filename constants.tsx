@@ -17,7 +17,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'North Indian',
     isPopular: true,
     isChefSpecial: true,
-    image: 'https://images.unsplash.com/photo-1626074353765-517a681e40be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: '2',
@@ -34,7 +34,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Fresh mint leaves, lime juice, sugar, and soda over crushed ice.',
     price: 195,
     category: 'Beverages',
-    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: '4',
