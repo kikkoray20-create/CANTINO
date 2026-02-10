@@ -2,7 +2,7 @@ import React from 'react';
 import { MenuItem, Review, GalleryImage } from './types';
 
 export const RESTAURANT_NAME = "Cantino";
-export const ADDRESS = "new Delhi ";
+export const ADDRESS = "NEW DELHI ";
 export const PHONE = "011 4019 4479";
 export const PHONE_URL = "tel:+911140194479";
 export const GOOGLE_MAPS_LINK = "https://www.google.com/maps/@28.693767,77.202619,2507m/data=!3m1!1e3?hl=en&entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D";
