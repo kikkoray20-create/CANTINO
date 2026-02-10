@@ -5,8 +5,8 @@ export const RESTAURANT_NAME = "Cantino";
 export const ADDRESS = "Shop 5, DDA Market Complex, Delhi University, Bylane, Hudson Lane, GTB Nagar, Delhi, 110033";
 export const PHONE = "011 4019 4479";
 export const PHONE_URL = "tel:+911140194479";
-export const GOOGLE_MAPS_LINK = "https://maps.app.goo.gl/jNrN5WRTvXE7L3i9A";
-export const ORDER_ONLINE_URL = "https://www.google.com/viewer/chooseprovider?mid=/g/11f3jybqdq&g2lbs=AIBNGdWcSns1Y-CVHFYPagRHwxFjP1k5cU_yAFFFkkRMTplQZjF_kTQIZ_yTXH0Z1MBZDFbNHAVTWndGkS29kGoSPzsF_kDEmTgDukaHuyOi-jAMhVrvJTE%3D&hl=en-IN&gl=in&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&utm_source=tactile&gei=57aFacHfKZeiseMPmaLAwQ4&ei=57aFacHfKZeiseMPmaLAwQ4&fo_s=OA&opi=79508299&orderType=1&ebb=1&cs=0&foub=mcpp";
+export const GOOGLE_MAPS_LINK = "https://www.google.com/maps/@28.693767,77.202619,2507m/data=!3m1!1e3?hl=en&entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D";
+export const ORDER_ONLINE_URL = "https://www.google.com/maps/@28.693767,77.202619,2507m/data=!3m1!1e3?hl=en&entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D";
 
 export const MENU_ITEMS: MenuItem[] = [
   {
